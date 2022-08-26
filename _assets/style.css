@@ -22,7 +22,9 @@ body {
 :hover::-webkit-scrollbar-track {
     background: hsla(0, 0%, 53%, 0.1);
 }
-
+.markdown-section a{
+    color: #EE8866;
+}
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
@@ -30,7 +32,7 @@ body {
 .markdown-section h5,
 .markdown-section h6 {
     margin-bottom: .5em;
-    font-weight: 400;
+    font-weight: bold;
 }
 .markdown-section p {
     line-height: 2;
@@ -60,7 +62,9 @@ body {
 .sidebar-nav-space {
     height: 24px;
 }
-
+.book-summary{
+    bottom: inherit;
+}
 .book-summary,
 .book-body {
     top: 80px;
@@ -82,7 +86,7 @@ body {
 
 .page-inner {
     max-width: none;
-    padding: 20px 270px 40px 40px;
+    padding: 20px 374px 40px 40px;
 }
 
 .header-inner #book-search-input {
@@ -200,7 +204,7 @@ body {
 }
 
 .book-anchor {
-    width: 180px;
+    width: 307px;
     position: absolute;
     top: 104px;
     right: 30px;
@@ -212,13 +216,13 @@ body {
 
 .book-anchor-title {
     line-height: 38px;
-    font-weight: 400;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .book-anchor a {
     display: block;
-    line-height: 25px;
+    line-height: 30px;
     color: #656565;
     font-size: 13px;
     overflow: hidden;
