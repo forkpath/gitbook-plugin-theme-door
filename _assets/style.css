@@ -63,6 +63,8 @@ body {
     height: 24px;
 }
 .book-summary{
+    border-right: 1px solid #ececec;
+    height: 100% !important;
     bottom: inherit;
 }
 .book-summary,
@@ -249,4 +251,27 @@ body {
 
 .book-anchor .anchor-h3{
     padding-left: 30px;
+}
+
+@media only screen and (max-width: 1026px) {
+    .book-anchor {
+        display: none;
+    }
+    .page-inner {
+        max-width: none;
+        padding: 20px 5px 5px 5px;
+    }
+    .book-body {
+        top: 120px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .book-body .body-inner {
+        position: absolute;
+        min-height: calc(100% - 50px);
+    }
+    body {
+        overflow-y: hidden;
+    }
 }
