@@ -259,12 +259,16 @@ body {
     }
     .page-inner {
         max-width: none;
-        padding: 20 5 40 5px;
+        padding: 20px 5px 5px 5px;
     }
     .book-body {
         top: 120px;
     }
     .header-nav {
         display: none;
+    }
+    .book-body .body-inner {
+        position: fixed;
+        min-height: calc(100% - 50px);
     }
 }
