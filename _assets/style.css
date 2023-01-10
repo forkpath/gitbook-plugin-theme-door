@@ -271,4 +271,7 @@ body {
         position: absolute;
         min-height: calc(100% - 50px);
     }
+    body {
+        overflow-y: hidden;
+    }
 }
