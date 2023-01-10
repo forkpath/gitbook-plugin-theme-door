@@ -268,7 +268,7 @@ body {
         display: none;
     }
     .book-body .body-inner {
-        position: fixed;
+        position: absolute;
         min-height: calc(100% - 50px);
     }
 }
